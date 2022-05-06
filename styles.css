@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 *{
 	padding: 0;
 	margin: 0;
@@ -15,14 +17,19 @@ nav{
 	background:transparent;
 
 }
-label .logo{
+.logo{
+	margin-left: 10%;
 	padding: 0 20px;
 	padding-top: 15px;
 	cursor: pointer;
+	margin-top: 50px;
 
 }
 nav ul{
+	margin-top: -35px;
 	float: right;
+	margin-right: 10%;
+	top: 30px;
 }
 nav ul li{
 	display: inline-block;
@@ -31,15 +38,32 @@ nav ul li{
 }
 nav ul li a {
 	color: hsl(0, 0%, 100%);
+	font-family: 'Alata', sans-serif;
+}
+ul li a{
+
+
+}
+ul li a:hover{
+
+	border-bottom: 2px solid hsl(0, 0%, 100%);
+	cursor: pointer;
+	transition: 0.1s ;
+	transition-timing-function: ease-in-out;
+ 	
+
 }
 header p{
 	text-transform: uppercase;
-	width: 150px;
+	width: 450px;
 	box-sizing: border-box;
 	color: hsl(0, 0%, 100%);
-	border: 1px solid hsl(0, 0%, 100%);
+	border: 2px solid hsl(0, 0%, 100%);
 	margin-left: 10%;
 	margin-top: 50px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
 	padding-left: 10px ;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -53,10 +77,11 @@ header p{
 	height: 350px;
 }
 .middlep{
+	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 	color:  hsl(0, 0%, 0%);
-	width: 150px;
-	
+	width: 250px;
+	font-size: 30px;
 	
 
 }
@@ -66,6 +91,7 @@ header p{
 	text-transform:capitalize;
 	width: 430px;
 	margin-top: 10px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 .interactive,.middle img{
 	float: left;
@@ -88,50 +114,81 @@ section{
 	width: 100%;
 	height: 135vh;
 }
+.ham{
+	display: none;
+
+}
 .sec{
+	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 	margin-left: 150px;
 	color: hsl(0, 0%, 0%);
 	line-height: 3;
-
+	font-size: 35px;
 }
 .see{
 	float: right;
 	margin-right: 350px;
+		font-size: 30px;
 	box-sizing: border-box;
-	border: 1px solid hsl(0, 0%, 0%);
-	width: 100px;
-	height: 30px;
-	padding-top: 5px;
-	padding-left: 	20px;
+	border: 2px solid hsl(0, 0%, 0%);
+	width: 250px;
+	font-family: 'Alata', sans-serif;
+	height: 50px;
+	padding-top: 3px;
+	padding-left: 	80px;
 	text-transform: uppercase;
 	margin-bottom: 50px;
 	margin-top: -80px;
+	font-family: 'Alata', sans-serif;
+}
+.see:hover{
+	color: hsl(0, 0%, 100%);
+	cursor: pointer;
+	background-color: hsl(0, 0%, 0%);
+}
+.see1{
+	display: none;
 }
 .ces{
 	margin-bottom: 20px;
 }
 .images{
-	display: block;
 	cursor: pointer;
 	align-content: center;
 	width: 100%;
+	height: 150vh;
 	}
+	
 .images1,.images2{
 	margin-left: 150px;
-	margin-bottom: 10px;
+	
+	display: grid;
+	grid-template-columns: 280px 280px 280px 280px;
+	gap: 10px;
+
 
 }
+.images1 img,
+.images2 img{
+	opacity: 1;
+}
+.images1 img:hover,
+.images2 img:hover{
+	opacity: 0.2;
+}
+
+
 .earth,.Arcade,.team,.gri{
-	float:left ;
-	margin-right: 20px ;
+	padding-bottom: 50px;
+	margin-right: 0px ;
 
 }
 .above,.borealis,.curiosity,.fisheye{
-	float: left;
-	margin-right: 20px ;
+	padding-bottom: 50px;
+	margin-right: 0px ;
 	
-}
+} 
 
 .earth,.Arcade,.team,.grid,.above,.borealis,.curiosity,.fisheye:hover{
 	background-color: hsl(0, 0%, 100%);
@@ -143,28 +200,236 @@ section{
 	margin-top: -70px;
 	color: hsl(0, 0%, 100%);
 	width: 50px;
+	opacity: 1;
 	text-align-last: center;
 	margin-left: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.sect1{
+	width: 100%;
+	height: 150vh;
 }
 footer{
 	background-color: hsl(0, 0%, 0%);
-	height: 80px;
+	height: 200px;
+	width: 100%;
+
+}
+footer ul{
+	margin-left: 10%;
 }
 footer ul li {
+	margin-top: 20px;
 	display: inline-block;
 	width: 50px;
 	line-height: 2;
+	font-family: font-family: 'Alata', sans-serif;
+	width: 60px;
 }
 footer ul li a{
 	color: hsl(0, 0%, 100%);
+	font-family: 'Josefin Sans', sans-serif;
 }
-footer div{
+
+.lst{
 	margin-left: 150px;
 	padding-top: 10px;
 }
 footer p{
-	float: right;
-	margin-right: 350px;
-	margin-top: -29px;
+
+	margin-top: 20px;
 	color: hsl(0, 0%, 41%);
+	font-family: 'Alata', sans-serif;
+}
+.fa-brands{
+	color: hsl(0, 0%, 100%);
+	padding-bottom: -30px;
+	font-size: 25px;
+	width: 30px;
+	text-indent: 100px;
+
+}
+.icon{
+	margin-right: 350px;
+	float: right;
+	height: 80px;
+	margin-top: -70px;
+}
+.mobile1,.mobile2{
+	display: none;
+}
+@media (max-width: 600px){
+	header{
+		background-image: url(images/mobile/image-hero.jpg);
+		width: 100%;
+		height: 700px;
+	}
+	header p{
+		margin-top: 150px;
+		padding-top: 20px;
+		width: 85%;
+		height: 330px;
+		box-sizing: border-box;
+		padding-left: 20px;
+		line-height:1.2;
+		margin-left: 3%;
+		font-size: 60px ;
+
+	}
+	main,nav{
+		width: 100%;
+
+		}
+
+	.logo{
+		
+	margin-top: 20px;	
+	width:200px;
+	height: 30px;
+		
+	}
+	.ham{
+		display: block;
+		position: absolute;
+		right: 40px;
+		top: 30px;
+		height: 30px;
+	}
+.see,.see1:hover{
+	cursor: pointer;
+	border-bottom: 2px solid hsl(0, 0%, 100%);
+}
+main{
+	height: 120vh;
+}
+.middle{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.interactive{
+	width: 100%;
+	text-align: center;
+	height: 50vh;
+}
+.middle img{
+	display: block;
+}
+.middle img{
+display: block;
+  margin-left:5%;
+  margin-bottom: -120px;
+  width: 90%;
+  height: 90%;
+}
+.midl{
+	text-align: center;
+	margin-left: 10%;
+	font-size: 24px;
+	 font-family: 'Alata', sans-serif;
+	 padding-top: 20px;
+	 
+	
+}
+.sec{
+	margin-left: 10%;
+	width: 90%;
+	font-size: 50px;
+}
+.images1,.images2{
+	display: none;
+}
+.middlep{
+	font-size: 50px;
+	text-align: center;
+	width: 80%;
+	margin-left: 15%;
+
+}
+.sect1{
+	margin-top: 50px;
+	padding-top: 50px;
+}
+.sect1,.images{
+		width: 100%;
+		height: 310vh;
+	}
+.mobile1,.mobile2{
+	display: grid;
+	padding-bottom: 20px;
+	
+}
+.images img{
+	width: 90%;
+	margin-left: 5%;
+}
+.para{
+	font-size: 30px;
+	width: 30%;
+	padding-left: 7%;
+	margin-bottom: -20px;
+}
+.see{
+	display: none;
+}
+
+.see1{
+	display: block;
+	font-size: 30px;
+	box-sizing: border-box;
+	border: 2px solid hsl(0, 0%, 0%);
+	width: 300px;
+	font-family: 'Alata', sans-serif;
+	height: 70px;
+	padding-top: 15px;
+	padding-left: 	100px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 22%;
+}
+footer{
+	width: 100%;
+	height: 650px;
+
+}
+.icon,.lst,footer ul li,footer{
+	display: block;
+}
+footer ul li{
+	font-size: 30px;
+	font-weight: bolder;
+	margin-left: 12%;
+}
+.lst{
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+.icon{
+	margin: 0;
+	margin-top: 30px;
+	margin-right: -8%;
+	width: 100%;
+}
+.icon p{
+	width: 100%;
+	font-size: 24px;
+}
+.fa-brands{
+	font-size: 50px;
+	width: 40px;
+	margin-right: 0;
+
+}
+.fa-facebook,
+.fa-twitter-square,
+.fa-pinterest-p,
+.fa-instagram{
+	padding-left: 25px;
+}
+
 }
