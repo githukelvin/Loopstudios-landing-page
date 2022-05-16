@@ -6,15 +6,14 @@
 	text-decoration: none;
 	list-style: none;
 }
-body{
-	height: 290vh;
-}
+
 header{
 	background-image: url(images/desktop/image-hero.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 650px;
 	width: 100%;
+
 }
 main{
 	height: 250vh;
@@ -64,7 +63,7 @@ h1{
 }
 header p{
 	text-transform: uppercase;
-	width: 450px;
+	width: 560px;
 	box-sizing: border-box;
 	color: hsl(0, 0%, 100%);
 	border: 2px solid hsl(0, 0%, 100%);
@@ -72,7 +71,7 @@ header p{
 	margin-top: 50px;
 
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 40px;
+	font-size: 80px;
 	padding-left: 10px ;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -288,9 +287,7 @@ footer p{
 		width: 100%;
 		height: 700px;
 	}
-	main{
-		width: auto;
-	}
+
 	header p{
 		margin-top: 150px;
 		padding-top: 20px;
@@ -332,7 +329,8 @@ footer p{
 	background-color: hsl(0, 0%, 0%);
 }
 main{
-	height: 350vh;
+	height: 450vh;
+	width: 100%;
 
 }
 .middle{
@@ -340,6 +338,8 @@ main{
 	margin-right: auto;
 	width: auto;
 	margin-bottom: 50px;
+	height: 135vh;
+	
 	
 }
 .interactive{
@@ -348,14 +348,11 @@ main{
 	height: 80vh;
 }
 .middle img{
-	display: block;
-}
-.middle img{
 display: block;
   margin-left:5%;
   margin-bottom: -120px;
   width: 90%;
-  height: 90%;
+  height: 50vh;
 }
 .midl{
 	text-align: center;
@@ -367,7 +364,11 @@ display: block;
 	 
 	
 }
+.ces{
+	margin-left: 30px;
+}
 .sec{
+
 	margin-left: 10%;
 	width: 90%;
 	font-size: 30px;
@@ -436,8 +437,7 @@ footer{
 }
 .icon,.lst,footer ul li,footer{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+
 }
 footer ul li{
 	font-size: 30px;
@@ -445,31 +445,32 @@ footer ul li{
 	margin-left: 12%;
 }
 .lst{
-	display: block;
-margin-left: auto;
-margin-right: auto;
+display: block;
+margin-left: 60px;
 }
 .icon{
-	margin: 0;
-	margin-top: 30px;
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
+
+margin-right: 50px;
+display: block;
+margin-top: 30px;
+width: 100%;
+
 }
-.icon p{
-	width:auto;
+footer p{
+	margin-left: 50px;
+	width:100%;
+	text-align: center;
 	font-size: 17px;
 }
 .fa-brands{
-	font-size: 50px;
-	width: 5%;
+	font-size: 30px;
 	display: inline-grid;
-	
-	
-	}
-	.fa-brands,p{
+	grid-gap: 10px ;
 
+	
+	
 	}
+	
 .fa-facebook,
 .fa-twitter-square,
 .fa-pinterest-p,
