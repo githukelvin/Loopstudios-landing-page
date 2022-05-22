@@ -1,18 +1,14 @@
-const navToggler = document.querySelector(".ham");
-navToggler.addEventListener("click",navToggle);
+const navBar= document.querySelector('.navbar');
+const navtoggle = document.querySelector('.toggle');
 
-function navToggle() {
-	// body...
-
-
-	navToggler.classList.toggle("active");
-	const nav = document.querySelector("nav");
-	nav.classList.toggle('open');
-	if (nav.classList.contains('open')) {
-		nav.style.maxHeight = nav.style.maxHeight = nav.scrollHeight + 'px';
-
+navtoggle.addEventListener('click', () =>{
+	const visibility = navBar.getAttribute("data-visible");
+	if (visibility === "true") {
+		navBar.setAttribute('data-visible', false);
+		navtoggle.setAttribute('aria-expanded', false);
 	}
-	else{
-		nav.removeAttribute('style');
+	else if (visibility === "false") {
+		navBar.setAttribute('data-visible', true);
+		navtoggle.setAttribute('aria-expanded', true);
 	}
-}
+});

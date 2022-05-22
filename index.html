@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <script src="https://kit.fontawesome.com/f1deb10f83.js" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
     <label ><img alt="logo image" class="logo" src="images/logo.svg"></label>
     <nav>
     
-    <ul>
+    <ul class="navbar" data-visible="false">
       <li><a href="#">About</a></li>
       <li><a href="">Careers</a></li>
       <li><a href="#">Events</a></li>
@@ -31,9 +31,7 @@
     </ul>
 
   </nav>
-    <label>
-      <img src="images/icon-hamburger.svg" class="ham" alt="hamburger">
-    </label>
+  <button class="toggle" aria-controls="navbar"id="toggle" aria-expanded="false"><span class="srs-only"></span></button>
   <p >Immersive experiences that deliver</p>
   </header>
 <main>
@@ -167,7 +165,7 @@
 </footer>
 
 
-
+<script src="nav.js"></script>
 
 </body>
 </html>
